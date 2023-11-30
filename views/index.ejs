@@ -54,11 +54,11 @@
                 </div>
 
                 <div class="button-container">
-                    <a href="/post/ <%= post._id %>" class='btn-red btn-read-more'>Read More...</a>
+                    <a href="/post/<%=post._id %>" class='btn-red btn-read-more'>Read More...</a>
 
-                    <button class="btn-delete">
+                    <a href="/delete/<%=post._id %>" class="btn-delete">
                         <i class="fas fa-trash-alt"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
                 <% }) %>
